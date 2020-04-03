@@ -643,7 +643,7 @@ a {
     padding-bottom: 8px;
 }
 
-@media screen and (max-width: 600px) and (min-width: 320px) {
+@media screen and (max-width: 720px) and (min-width: 320px) {
 
     .header {
         background: #f9f8fb url(../images/header-bg.jpg) no-repeat 100% 100%;
