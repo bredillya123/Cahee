@@ -150,6 +150,8 @@ a {
     }
 }
 
+
+
 .about {
     color: #fff;
     background-color: #00c4c4;
@@ -462,9 +464,8 @@ a {
     margin-bottom: 120px;
     width: 60px;
     height: 60px;
-    opacity: 0.5;
     border-radius: 5px;
-    background: var(--grey);
+    background: #2626265b;
 }
 
 .date__text {
@@ -642,3 +643,112 @@ a {
     padding-bottom: 8px;
 }
 
+@media screen and (max-width: 600px) and (min-width: 320px) {
+
+    .header {
+        background: #f9f8fb url(../images/header-bg.jpg) no-repeat 100% 100%;
+        width: 133vh;
+        height: 175vh;
+        position: relative;
+    }
+    .info-box {
+        margin-top: -3vh;
+        margin-left: 15vh;
+    }
+    .info-box__title {
+        font-size: 100px;
+        margin-bottom: 100px;
+    }
+
+    .info-box__desc {
+        font-size: 25px;
+    }
+
+    .logo {
+        font: 75px var(--font-title);
+        margin-left: 100px;
+    }
+    .menu {
+        display: inline;
+        margin-right: 40px;
+    }
+
+    .menu__item {
+        margin: 30px 100px;
+    }
+    .button {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .navigation {
+        display: inline;
+    }
+
+
+
+
+    .about__row {
+        background: url(../images/about-bg.png) no-repeat 50% 35%;
+        background-size: 360px;
+        height: 150vh;
+        align-items: center;
+        min-height: 600px;
+        max-height: 1000px;
+    }
+
+    .offset-7 {
+        margin-left: 0;
+    }
+
+    .col-5 {
+        max-width: 80%;
+        margin-left: 80px;
+    }
+
+    .about {
+        width: 70vh;
+    }
+
+    .about__title {
+        text-align: center;
+        margin-bottom: 337px;
+    }
+
+    .services {
+        width: 70vh;
+    } 
+
+    .services__row {
+        background: url(../images/services-bg.png) no-repeat 50% 12%;
+        min-height: 600px;
+        background-size: 320px;
+        max-height: 1000px;
+        height: 200vh;
+        flex-direction: column-reverse;
+    }
+
+    .services__block {
+        flex: 0 0 0;
+        max-width: 1%;
+    }
+
+    .services__title {
+        flex: 1 0 0;
+        max-width: 65%;
+    }
+
+    .gallery {
+        width: 67vh;
+    }
+
+    .gallery__info {
+        margin-left: 11%;
+        max-width: 80%;
+    }
+
+    .button__gallery {
+        margin-left: 28%;
+    }
+
+}  

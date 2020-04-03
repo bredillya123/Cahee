@@ -1,0 +1,9 @@
+@media screen and (max-width: 320px) {
+
+    .haeder {
+        background: #f9f8fb url('../images/header-bg.jpg') no-repeat center;
+        width: 150vh;
+        height: 125vh;
+        position: relative;
+    }
+}  
