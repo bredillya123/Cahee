@@ -647,8 +647,8 @@ a {
 
     .header {
         background: #f9f8fb url(../images/header-bg.jpg) no-repeat 100% 100%;
-        width: 133vh;
-        height: 175vh;
+        width: 120vh;
+        height: 200vh;
         position: relative;
     }
     .info-box {
@@ -658,10 +658,14 @@ a {
     .info-box__title {
         font-size: 100px;
         margin-bottom: 100px;
+        margin-left: 220px;
     }
 
     .info-box__desc {
         font-size: 25px;
+        margin-left: 220px;
+        width: 300px;
+        height: 200px;
     }
 
     .logo {
@@ -703,11 +707,11 @@ a {
 
     .col-5 {
         max-width: 80%;
-        margin-left: 80px;
+        margin-left: 220px;
     }
 
     .about {
-        width: 70vh;
+        width: 120vh;
     }
 
     .about__title {
@@ -716,7 +720,7 @@ a {
     }
 
     .services {
-        width: 70vh;
+        width: 120vh;
     } 
 
     .services__row {
@@ -731,6 +735,7 @@ a {
     .services__block {
         flex: 0 0 0;
         max-width: 1%;
+        margin-left: 145px;
     }
 
     .services__title {
@@ -739,16 +744,16 @@ a {
     }
 
     .gallery {
-        width: 67vh;
+        width: 120vh;
     }
 
     .gallery__info {
-        margin-left: 11%;
+        margin-left: 25%;
         max-width: 80%;
     }
 
     .button__gallery {
-        margin-left: 28%;
+        margin-left: 36%;
     }
 
 }  
